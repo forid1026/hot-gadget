@@ -1,6 +1,9 @@
 .container{
     margin-bottom: 100px;
 }
+
+/* NAVIGATION SECTION */
+
 nav{
     background: #ffffff;
 }
@@ -12,8 +15,17 @@ nav{
     padding: 10px 20px;
 }
 
+/* CAROUSEL SECTION */
+
+.slide{
+    background-image: url('../images/bg-1.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: fit-content;
+}
+
  .carousel-indicators .active{ 
-    background: orange;
+    background: #ffc107;
     border: none;
     width: 2.5rem;
 
@@ -29,18 +41,16 @@ nav{
     
 }
 .carousel-indicators{
-    bottom: -20px;
+    bottom: -5px;
 }
-.bg-image{
-    height: 350px;
-    background-position: top;
-    
-}
+
+/* product section */
 
 .card{
     border: none;
     box-shadow: 5px 5px 8px lightgrey;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 .card .card-footer{
     border-top: none;
@@ -50,9 +60,12 @@ nav{
     font-size: 22px;
 }
 .orange-color{
-    color: orange;
+    color: #ffc107;
     font-size: 16px;
 }
+
+/* CATEGORIES SECTION */
+
 #categories{
     height: 750px;
 }
@@ -69,7 +82,6 @@ nav{
     
     
 }
-
 #categories .card{
     border-radius: 10px 0px 20px 0;
 }
